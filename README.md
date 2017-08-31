@@ -6,11 +6,11 @@ The list of words used can be found in the [`stopwords.txt`](https://github.com/
 
 ## Installation
 
-    npm install isStopword
+    npm install isstopword
 
 ## Usage
 
 ```Javascript
-var isStopword = require('isStopword')
+var isStopword = require('isstopword')
 isStopword('about')
 ```

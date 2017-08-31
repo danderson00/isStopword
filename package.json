@@ -1,5 +1,5 @@
 {
-  "name": "isStopword",
+  "name": "isstopword",
   "version": "0.0.1",
   "description": "A simple, efficient function to determine if a word is a stop word",
   "main": "index.js",

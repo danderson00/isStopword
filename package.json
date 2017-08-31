@@ -1,0 +1,16 @@
+{
+  "name": "isStopword",
+  "version": "0.0.1",
+  "description": "A simple, efficient function to determine if a word is a stop word",
+  "main": "index.js",
+  "scripts": {
+    "test": "isStopword.test"
+  },
+  "keywords": ["stopword", "stop", "word"],
+  "author": "danderson00",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danderson00/isStopword.git"
+  },
+  "license": "MIT"
+}

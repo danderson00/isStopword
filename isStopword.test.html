@@ -1,0 +1,28 @@
+<html>
+<head>
+  <script src="browser.js"></script>
+  <script>
+    window.onload = () => {
+      test('a')
+      test('z')
+      test('about')
+      test('he')
+      test('she')
+      test('Wouldn\'t')
+      test('ISN\'T')
+      test('asdg')
+      test('abou')
+      test('zz')
+
+      function test(word) {
+        const element = document.createElement('div')
+        element.append(word + ': ' + window.isStopword(word))
+        document.querySelector('div').append(element)
+      }
+    }
+  </script>
+</head>
+<body>
+<div></div>
+</body>
+</html>

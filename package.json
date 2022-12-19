@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "A simple, efficient function to determine if a word is a stop word",
   "main": "index.js",
+  "browser": "browser.js",
   "scripts": {
     "test": "isStopword.test"
   },
